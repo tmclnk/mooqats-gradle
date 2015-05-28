@@ -25,23 +25,15 @@ For Grails 3.0 to be a viable platform for the this team, this application
 will need to demonstrate that it can support, at a minimum, the capabiities 
 from the following plugins:
 
-```
-runtime ':database-migration:1.1'
-compile ':export:1.5' // specifically, support for exporting to excel
-compile ':filterpane:2.0.1.1' // including some customizations
-compile ':fields:1.3'
-
-//job scheduling
-compile ':quartz:1.0.6-RC6'
-compile ':quartz-monitor:0.3-RC1'
-
-//enterprise security
-compile ':spring-security-core:1.2.7.3'
-compile ':spring-security-ldap:1.0.6'
-```
-
-These plugins have been covered
+* ~~runtime ':database-migration:1.1'~~ //see org.grails.plugins:database-migration:2.0.0RC1
+* compile ':export:1.5' // specifically, support for exporting to excel
+* compile ':filterpane:2.0.1.1' // including some customizations
+* ~~compile ':fields:1.3'~~ //see org.grails.plugins:fields:2.0.1
 * ~~compile ':mail:1.0.4'~~ //see org.grails.plugins:mail:2.0.0RC1
+* ~~compile ':quartz:1.0.6-RC6'~~ //see org.grails.plugins:quartz:2.0.0M4
+* ~~compile ':quartz-monitor:0.3-RC1'~~ //see org.grails.plugins:quartz-monitor:1.2
+* compile ':spring-security-core:1.2.7.3'
+* compile ':spring-security-ldap:1.0.6'
 
 
 ## Eclipse
