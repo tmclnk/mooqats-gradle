@@ -28,7 +28,6 @@ from the following plugins:
 ```
 runtime ':database-migration:1.1'
 compile ':export:1.5' // specifically, support for exporting to excel
-compile ':mail:1.0.4'
 compile ':filterpane:2.0.1.1' // including some customizations
 compile ':fields:1.3'
 
@@ -40,6 +39,9 @@ compile ':quartz-monitor:0.3-RC1'
 compile ':spring-security-core:1.2.7.3'
 compile ':spring-security-ldap:1.0.6'
 ```
+
+These plugins have been covered
+* ~~compile ':mail:1.0.4'~~ //see org.grails.plugins:mail:2.0.0RC1
 
 
 ## Eclipse
