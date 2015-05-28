@@ -28,7 +28,7 @@ from the following plugins:
 ```
 runtime ':database-migration:1.1'
 compile ':export:1.5' // specifically, support for exporting to excel
-compile ':mail:1.0.4'
+~~~compile ':mail:1.0.4'~~~
 compile ':filterpane:2.0.1.1' // including some customizations
 compile ':fields:1.3'
 
